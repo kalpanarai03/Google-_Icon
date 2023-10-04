@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Search Engine</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    #container {
+      text-align: center;
+      margin-top: 200px;
+    }
+
+    #logo {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+
+    #search-form {
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 24px;
+      padding: 10px;
+      width: 400px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    #search-form input[type="text"] {
+      border: none;
+      outline: none;
+      font-size: 16px;
+      width: 80%;
+    }
+
+    #search-form input[type="submit"] {
+      background-color: #f2f2f2;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    #search-form input[type="submit"]:hover {
+      background-color: #e5e5e5;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    <form id="search-form">
+      <input type="text" name="search" placeholder="Search...">
+      <input type="submit" value="Search">
+    </form>
+  </div>
+</body>
+</html>
